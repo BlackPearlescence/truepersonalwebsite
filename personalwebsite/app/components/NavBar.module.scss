@@ -1,0 +1,13 @@
+.navbar {
+    .listbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    .listbox > li > a {
+        color: white;
+    }
+}

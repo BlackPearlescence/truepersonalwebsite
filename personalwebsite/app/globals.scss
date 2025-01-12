@@ -1,10 +1,4 @@
-h1,h2,h3,h4,h5,h6  {
-  font-size: clamp(2rem, 4vw, 4rem);
-}
 
-p {
-  font-size: clamp(1rem,2vw,2rem)
-}
 // Font Sizes
 $font-size-1: 1rem;
 $font-size-2: 1.2rem;
@@ -51,140 +45,78 @@ $text-color: #333333;
 $muted-color: #7f8c8d;
 $link-color: $primary-color;
 
-
-
-
-
-// @media screen and (max-width: $breakpoint-xs){
-    
-//     h1 {
-//       font-size: clamp(1rem, 2vw, 1.5rem);
-//     }
-
-//     // $spacing-xs: 8px;
-//     // $spacing-sm: 12px;
-//     // $spacing-md: 16px;
-//     // $spacing-lg: 24px;
-//     // $spacing-xl: 32px;
-//     // $accent-color: red;
-
+// body, html {
+//   margin: 0; /* Remove default margins */
+//   padding: 0; /* Remove default padding */
 // }
 
-// @media screen and (min-width: $breakpoint-xs) and (max-width: $breakpoint-sm) {
+h1,h2,h3,h4,h5,h6  {
+  font-size: clamp(2rem, 4vw, 4rem);
+}
 
-//     // $font-size-1: 1rem;
-//     // $font-size-2: 1.2rem;
-//     // $font-size-3: 1.44rem;
-//     // $font-size-4: 1.6rem;
-//     // $font-size-5: 1.8rem;
-//     // $font-size-6: 2rem;
-
-//     // $spacing-xs: 8px;
-//     // $spacing-sm: 16px;
-//     // $spacing-md: 20px;
-//     // $spacing-lg: 32px;
-//     // $spacing-xl: 48px;
-//     h1 {
-//       font-size: clamp(1rem, 2vw, 1.5rem);
-//     }
-
-
-// }
-
-// @media screen and (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
-
-//     // $font-size-1: 1.1rem;
-//     // $font-size-2: 1.3rem;
-//     // $font-size-3: 1.6rem;
-//     // $font-size-4: 1.9rem;
-//     // $font-size-5: 2.3rem;
-//     // $font-size-6: 2.7rem;
-
-//     // $spacing-xs: 12px;
-//     // $spacing-sm: 20px;
-//     // $spacing-md: 24px;
-//     // $spacing-lg: 40px;
-//     // $spacing-xl: 64px;
-
-
-//     h1 {
-//       font-size: clamp(1rem, 2vw, 1.5rem);
-//     }
-// }
-
-// @media screen and (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
-  
-//     // $font-size-1: 1.2rem;
-//     // $font-size-2: 1.4rem;
-//     // $font-size-3: 1.8rem;
-//     // $font-size-4: 2rem;
-//     // $font-size-5: 2.5rem;
-//     // $font-size-6: 3rem;
-
-//     // $spacing-xs: 16px;
-//     // $spacing-xs: 16px;
-//     // $spacing-sm: 24px;
-//     // $spacing-md: 32px;
-//     // $spacing-lg: 48px;
-//     // $spacing-xl: 80px;
-
-//     h1 {
-//       font-size: clamp(1rem, 2vw, 1.5rem);
-//     }
-
-// }
-
-// @media screen and (min-width: $breakpoint-lg) and (max-width: $breakpoint-xl) {
-  
-//   // $font-size-1: 1.2rem;
-//   // $font-size-2: 1.4rem;
-//   // $font-size-3: 1.8rem;
-//   // $font-size-4: 2rem;
-//   // $font-size-5: 2.5rem;
-//   // $font-size-6: 3rem;
-
-//   // $spacing-xs: 16px;
-//   // $spacing-xs: 16px;
-//   // $spacing-sm: 24px;
-//   // $spacing-md: 32px;
-//   // $spacing-lg: 48px;
-//   // $spacing-xl: 80px;
-
-//   h1 {
-//     font-size: clamp(1rem, 2vw, 1.5rem);
-//   }
-
-
-//   @media screen and (min-width: $breakpoint-xl) {
-  
-//     // $font-size-1: 1.2rem;
-//     // $font-size-2: 1.4rem;
-//     // $font-size-3: 1.8rem;
-//     // $font-size-4: 2rem;
-//     // $font-size-5: 2.5rem;
-//     // $font-size-6: 3rem;
-  
-//     // $spacing-xs: 16px;
-//     // $spacing-xs: 16px;
-//     // $spacing-sm: 24px;
-//     // $spacing-md: 32px;
-//     // $spacing-lg: 48px;
-//     // $spacing-xl: 80px;
-  
-//     h1 {
-//       font-size: clamp(1rem, 2vw, 1.5rem);
-//     }
-  
-//   }
-// }
-
-
-
-
-
-
+p, a {
+  font-size: clamp(1rem,2vw,2rem)
+}
 
 
 a {
   text-decoration: none;
 }
+
+ul {
+  text-decoration: none;
+}
+nav{
+  background-color: $background-color;
+}
+body, html {
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+}
+
+
+
+
+
+@media screen and (max-width: $breakpoint-xs){
+    
+
+
+
+}
+
+@media screen and (min-width: $breakpoint-xs) and (max-width: $breakpoint-sm) {
+
+
+
+}
+
+@media screen and (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
+
+
+
+}
+
+@media screen and (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+  
+
+
+}
+
+@media screen and (min-width: $breakpoint-lg) and (max-width: $breakpoint-xl) {
+  
+
+}
+
+
+@media screen and (min-width: $breakpoint-xl) {
+
+  
+}
+
+
+
+
+
+
+
