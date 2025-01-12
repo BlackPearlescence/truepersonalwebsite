@@ -2,12 +2,41 @@
     .listbox {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
         margin: 0px;
         padding: 0px;
+        list-style-type: none;
         
     }
-    .listbox > li > a {
-        color: white;
+
+    .listbox > li {
+        flex-grow: 1;
+        text-align: center;
+        background-color: black;
+        transition: background-color 0.6s ease, color 0.6s ease;
+
+        > a {
+            color: white;
+            flex-grow: 1;
+        }
+
+
+        &:hover {
+            background-color: white;
+        }
+
+
+
+        
     }
+
+    // .listbox > li > a {
+    //     color: white;
+    //     transition: color 0.6s ease;
+    //     flex-grow: 1;
+
+    //     &:hover {
+    //         color: black;
+    //     }
+    // }
 }
