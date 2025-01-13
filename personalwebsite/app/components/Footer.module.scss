@@ -5,13 +5,23 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-grow: 0.5;   
+    flex-grow: 0.5;
+    padding-bottom: 20px;
+
+    @media screen and (max-width: 576px) {
+        flex-direction: column;
+        
+    }
 
     .footercontentcontainer {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         flex-grow:0.5;
+        @media screen and (max-width: 576px) {
+            flex-direction: column;
+            
+        }
 
         .contactcontainer {
             display: flex;
@@ -22,6 +32,7 @@
             > div {
                 display: flex;
                 flex-direction: column;
+                padding: 10px;
             }
         }
 
@@ -54,14 +65,20 @@
     .socialscontainer {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-around;  
+        @media screen and (max-width: 576px) {
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+        
+        }
         .socials {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             
             * {
-                font-size: clamp(1rem,2vw,4rem);
+                font-size: clamp(1.5rem,2vw,4rem);
             }
         }
     }

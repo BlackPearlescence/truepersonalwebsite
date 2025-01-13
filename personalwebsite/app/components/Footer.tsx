@@ -25,7 +25,7 @@ export const Footer = () => {
             
 
             <div className={styles.socialscontainer}>
-                <span>For the love of code.</span>
+                <span>"For the love of code."</span>
                 <div className={styles.socials}>
                     <a href=""><FaGithub /></a>
                     <a href=""><FaLinkedin /></a>
