@@ -50,8 +50,28 @@ $link-color: $primary-color;
 //   padding: 0; /* Remove default padding */
 // }
 
-h1,h2,h3,h4,h5,h6  {
+h1{
   font-size: clamp(2rem, 4vw, 4rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3vw, 3rem);
+}
+
+h3 {
+  font-size: clamp(1.25rem, 2vw, 2.5rem);
+}
+
+h4 {
+  font-size: clamp(1.125rem, 2vw, 2rem);
+}
+
+h5 {
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+}
+
+h6 {
+  font-size: clamp(1rem, 2vw, 1.25rem);
 }
 
 p, a {

@@ -1,0 +1,20 @@
+
+.ctacontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(38, 38, 38);
+    position: relative;
+
+    > *{
+        margin: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        color:white;
+    }
+
+    
+}
+
