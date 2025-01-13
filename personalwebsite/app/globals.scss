@@ -50,6 +50,10 @@ $link-color: $primary-color;
 //   padding: 0; /* Remove default padding */
 // }
 
+svg {
+  font-size: clamp(0.5rem, 2vw, 1rem);
+}
+
 h1{
   font-size: clamp(2rem, 4vw, 4rem);
 }
@@ -75,7 +79,11 @@ h6 {
 }
 
 p, a {
-  font-size: clamp(1rem,2vw,2rem)
+  font-size: clamp(0.5rem,2vw,1rem)
+}
+
+span {
+  font-size: clamp(0.5rem,2vw,1rem)
 }
 
 
